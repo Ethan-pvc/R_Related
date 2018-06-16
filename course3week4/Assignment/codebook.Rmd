@@ -1,0 +1,112 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+## Overview of Tiny Data
+
+Tiny Data contain 81 columns and and 180 rows.Each row has a series of averaged variables grouped by activity ID and Subject ID. The variables included in Tiny Data are only the mean and standard deviation.
+
+## Subject ID and Activity ID
+
+Subject ID refers to the 30 voluteers who took part in the experiment. They performed a protocol of activities composed of six basic activities:
+
+1. Walking
+
+2. Walking upstairs
+
+3. Walking downstairs
+
+4. Sitting
+
+5. Standing
+
+6. Laying
+
+## variables listings in Tiny Data
+
+Tiny Data contains 81 variables as below. 
+
+1. activityID
+2. subjectID
+3. timeBodyAccelerator.mean...X
+4. timeBodyAccelerator.mean...Y
+5. timeBodyAccelerator.mean...Z
+6. timeBodyAccelerator.std...X
+7. timeBodyAccelerator.std...Y
+8. timeBodyAccelerator.std...Z
+9. timeGravityAccelerator.mean...X
+10. timeGravityAccelerator.mean...Y
+11. timeGravityAccelerator.mean...Z
+12. timeGravityAccelerator.std...X
+13. timeGravityAccelerator.std...Y
+14. timeGravityAccelerator.std...Z
+15. timeBodyAcceleratorJerk.mean...X
+16. timeBodyAcceleratorJerk.mean...Y
+17. timeBodyAcceleratorJerk.mean...Z
+18. timeBodyAcceleratorJerk.std...X
+19. timeBodyAcceleratorJerk.std...Y
+20. timeBodyAcceleratorJerk.std...Z
+21. timeBodyGyroscope.mean...X
+22. timeBodyGyroscope.mean...Y
+23. timeBodyGyroscope.mean...Z
+24. timeBodyGyroscope.std...X
+25. timeBodyGyroscope.std...Y
+26. timeBodyGyroscope.std...Z
+27. timeBodyGyroscopeJerk.mean...X
+28. timeBodyGyroscopeJerk.mean...Y
+29. timeBodyGyroscopeJerk.mean...Z
+30. timeBodyGyroscopeJerk.std...X
+31. timeBodyGyroscopeJerk.std...Y
+32. timeBodyGyroscopeJerk.std...Z
+33. timeBodyAcceleratorMagnitude.mean..
+34. timeBodyAcceleratorMagnitude.std..
+35. timeGravityAcceleratorMagnitude.mean..
+36. timeGravityAcceleratorMagnitude.std..
+37. timeBodyAcceleratorJerkMagnitude.mean..
+38. timeBodyAcceleratorJerkMagnitude.std..
+39. timeBodyGyroscopeMagnitude.mean..
+40. timeBodyGyroscopeMagnitude.std..
+41. timeBodyGyroscopeJerkMagnitude.mean..
+42. timeBodyGyroscopeJerkMagnitude.std..
+43. frequencyBodyAccelerator.mean...X
+44. frequencyBodyAccelerator.mean...Y
+45. frequencyBodyAccelerator.mean...Z
+46. frequencyBodyAccelerator.std...X
+47. frequencyBodyAccelerator.std...Y
+48. frequencyBodyAccelerator.std...Z
+49. frequencyBodyAccelerator.meanFreq...X
+50. frequencyBodyAccelerator.meanFreq...Y
+51. frequencyBodyAccelerator.meanFreq...Z
+52. frequencyBodyAcceleratorJerk.mean...X
+53. frequencyBodyAcceleratorJerk.mean...Y
+54. frequencyBodyAcceleratorJerk.mean...Z
+55. frequencyBodyAcceleratorJerk.std...X
+56. frequencyBodyAcceleratorJerk.std...Y
+57. frequencyBodyAcceleratorJerk.std...Z
+58. frequencyBodyAcceleratorJerk.meanFreq...X
+59. frequencyBodyAcceleratorJerk.meanFreq...Y
+60. frequencyBodyAcceleratorJerk.meanFreq...Z
+61. frequencyBodyGyroscope.mean...X
+62. frequencyBodyGyroscope.mean...Y
+63. frequencyBodyGyroscope.mean...Z
+64. frequencyBodyGyroscope.std...X
+65. frequencyBodyGyroscope.std...Y
+66. frequencyBodyGyroscope.std...Z
+67. frequencyBodyGyroscope.meanFreq...X
+68. frequencyBodyGyroscope.meanFreq...Y
+69. frequencyBodyGyroscope.meanFreq...Z
+70. frequencyBodyAcceleratorMagnitude.mean..
+71. frequencyBodyAcceleratorMagnitude.std..
+72. frequencyBodyAcceleratorMagnitude.meanFreq..
+73. frequencyBodyBodyAcceleratorJerkMagnitude.mean..
+74. frequencyBodyBodyAcceleratorJerkMagnitude.std..
+75. frequencyBodyBodyAcceleratorJerkMagnitude.meanFreq..
+76. frequencyBodyBodyGyroscopeMagnitude.mean..
+77. frequencyBodyBodyGyroscopeMagnitude.std..
+78. frequencyBodyBodyGyroscopeMagnitude.meanFreq..
+79. frequencyBodyBodyGyroscopeJerkMagnitude.mean..
+80. frequencyBodyBodyGyroscopeJerkMagnitude.std..
+81. frequencyBodyBodyGyroscopeJerkMagnitude.meanFreq..
+
+Activity ID is factor type. Subject ID is integer type. All the other variables are numeric type.
